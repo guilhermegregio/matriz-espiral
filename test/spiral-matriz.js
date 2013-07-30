@@ -1,8 +1,6 @@
 var expect = require('chai').expect;
 
-
-suite('Spiral Matriz', function () {
-
+suite('Generate Matriz Initial', function () {
 	var matriz = require('../').matriz;
 
 	test('generate init matriz 1x1', function () {
