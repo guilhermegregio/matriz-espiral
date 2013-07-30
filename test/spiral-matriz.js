@@ -36,4 +36,8 @@ suite('Spiral Matriz', function () {
 	test('generate spiral matriz 1x5', function () {
 		expect(spiral(1,5)).to.eql([[1,2,3,4,5]]);
 	});
+
+	test('generate spiral matriz 1x5', function () {
+		expect(spiral(5,1)).to.eql([[1],[2],[3],[4],[5]]);
+	});
 });
