@@ -50,4 +50,13 @@ suite('Spiral Matriz', function () {
 			[5]
 		]);
 	});
+
+	test('generate spiral matriz 2x5', function () {
+		expect(spiral(2, 5)).to.eql([
+			[1, 2, 3, 4, 5],
+			[10, 9, 8, 7, 6]
+		]);
+	});
+
+	
 });
