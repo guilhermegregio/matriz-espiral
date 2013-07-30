@@ -1,1 +1,1 @@
-module.export = require('./lib/spiral-matriz');
+module.exports = require('./lib/spiral-matriz');
