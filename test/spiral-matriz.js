@@ -12,4 +12,8 @@ suite('Spiral Matriz', function () {
 	test('generate init matriz 1x5', function () {
 		expect(matriz(1,5)).to.eql([[0,0,0,0,0]]);
 	});
+
+	test('generate init matriz 5x5', function () {
+		expect(matriz(5,5)).to.eql([[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]);
+	});
 });
